@@ -1,0 +1,11 @@
+out_v22.prof% callees classifyImage
+   Random listing order was used
+   List reduced from 10599 to 1 due to restriction <'classifyImage'>
+
+Function                           called...
+                                       ncalls  tottime  cumtime
+final_script.py:65(classifyImage)  ->       1    0.000    0.000  <__array_function__ internals>:2(amax)
+                                            1    0.000    0.000  <__array_function__ internals>:2(where)
+                                            1    0.000    0.113  training.py:1302(predict)
+                                            4    0.001    0.003  {built-in method builtins.print}
+

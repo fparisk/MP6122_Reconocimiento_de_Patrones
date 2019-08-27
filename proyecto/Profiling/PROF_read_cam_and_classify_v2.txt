@@ -1,0 +1,21 @@
+out_v22.prof% callees read_cam_and_classify
+   Random listing order was used
+   List reduced from 10599 to 1 due to restriction <'read_cam_and_classify'>
+
+Function                                    called...
+                                                ncalls  tottime  cumtime
+final_script.py:104(read_cam_and_classify)  ->       1    0.000    0.000  final_script.py:49(gstreamer_pipeline)
+                                                     1    0.000    0.116  final_script.py:65(classifyImage)
+                                                     1    0.000    0.001  final_script.py:83(getRegionOfInterest)
+                                                     1    0.000    0.001  final_script.py:90(cvMatToNumpyArray)
+                                                     1    0.001    0.001  {destroyAllWindows}
+                                                    92    0.002    0.002  {getWindowProperty}
+                                                    92    0.148    0.148  {imshow}
+                                                     1    0.011    0.011  {method 'isOpened' of 'cv2.VideoCapture' objects}
+                                                    92    1.003    1.003  {method 'read' of 'cv2.VideoCapture' objects}
+                                                     1    0.230    0.230  {method 'release' of 'cv2.VideoCapture' objects}
+                                                     1    0.596    0.596  {namedWindow}
+                                                    92    0.066    0.066  {putText}
+                                                    92    0.010    0.010  {rectangle}
+                                                    92    2.769    2.769  {waitKey}
+
