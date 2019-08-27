@@ -42,7 +42,7 @@ schdlr = sched.scheduler(time.time, time.sleep)
 adaptNet_model = models.load_model('adaptNet_model_v02.h5')
 
 try:
-    adaptNet_model.predict(np.empty([1,48, 48,1]))
+    adaptNet_model.predict(np.empty([1,48,48,1]))
 except:
     print("finished init")
 
